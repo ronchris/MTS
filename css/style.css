@@ -1,0 +1,133 @@
+html, body {
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.100em;
+	background: #f4f4f4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Nunito', sans-serif;
+}
+
+.row-background {
+   position: static;
+}
+
+.row-lockupbox {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.sds_relative { 
+	position: relative;
+}
+
+.main-wrap {
+	background: #fff;
+	margin: 5em;
+	/*-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-box-shadow: 0px 2px 5px 2px rgba*/(110,125,118,.75);
+	-moz-box-shadow: 0px 2px 5px 2px rgba(110,125,118,.75);
+	box-shadow: 0px 2px 5px 2px rgba(110,125,118,.75);
+}
+header,
+.form-wrap,
+.content-wrap {
+	padding:3em;
+}
+
+.smiley-wrap {
+	float: left;
+	padding-left: 3em;
+}
+
+.hd-wrap {
+	float: right;
+	padding-top: 1em;
+	padding-right: 3em;
+	text-align: center;
+}
+
+.form-wrap {
+	background: #fff;
+	color: #fff;
+}
+
+.form-wrap .hd {
+	padding-bottom: 1.0em;
+}
+.form-wrap .hd:nth-of-type(2) {
+	padding-top: 2em;
+
+}
+.form-wrap .hd h3 {
+	color: #fff;
+}
+
+input[type="text"],
+input[type="number"] {
+	height: 3.5em;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	box-shadow: none;
+}
+
+
+.form-wrap .button {
+	background: #0ba5b5;
+	-webkit-border-radius: 5px;
+	font-size: 1em;
+	width: 100%;
+}
+
+.gender {
+	text-align: center;
+	width: 180px;
+}
+.gender p {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	letter-spacing: 0.055em;
+	font-weight: 200;
+}
+
+.gender .fa-male,
+.gender .fa-female {
+	font-size: 1.5em;
+	text-align: center;
+	padding-right: 0.500em;
+}
+
+.content-wrap {
+	display: none;
+}
+
+.send .button {
+	font-family: 'Nunito', sans-serif;
+	letter-spacing: .055em;
+	margin-top: 2em;
+	font-size: 1.2em;
+	padding: 1.5em 2em;
+	text-transform: uppercase;
+	display: block;
+	background: #BD4932;
+}
+
+#gen_row {
+	margin-bottom: 25px;
+}
+
+strong {
+	text-decoration: underline;
+	font-size: 1.4em;
+	color: #000000;
+}
+
+#generate:hover {
+	background:#f4f4f4;
+}
