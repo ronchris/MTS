@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 header,
 .form-wrap,
 .content-wrap {
-	padding:3em;
+	padding:0em;
 }
 
 .smiley-wrap {
@@ -53,7 +53,7 @@ header,
 
 .form-wrap {
 	background: #fff;
-	color: #fff;
+	color: #000;
 }
 
 .form-wrap .hd {
@@ -64,7 +64,8 @@ header,
 
 }
 .form-wrap .hd h3 {
-	color: #fff;
+	margin-top: 1em;
+	color: #000;
 }
 
 input[type="text"],
@@ -115,7 +116,7 @@ input[type="number"] {
 	padding: 1.5em 2em;
 	text-transform: uppercase;
 	display: block;
-	background: #BD4932;
+	background: #003764;
 }
 
 #gen_row {
@@ -129,5 +130,5 @@ strong {
 }
 
 #generate:hover {
-	background:#f4f4f4;
+	opacity: 0.5;
 }
